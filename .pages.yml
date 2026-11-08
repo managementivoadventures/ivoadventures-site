@@ -1,0 +1,46 @@
+media:
+  input: img
+  output: img
+content:
+  - name: posts
+    label: Aktualności
+    type: collection
+    path: posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, category]
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Tytuł
+        type: string
+        required: true
+      - name: date
+        label: Data
+        type: date
+        required: true
+      - name: description
+        label: Opis do Google (1–2 zdania, ok. 150 znaków)
+        type: text
+        required: true
+      - name: category
+        label: Kategoria
+        type: select
+        options:
+          values: [Telewizja, Radio, DIY, Współpraca, Wydarzenia, Aktualności]
+      - name: image
+        label: Zdjęcie główne
+        type: image
+      - name: draft
+        label: Szkic (nie publikuj)
+        type: boolean
+      - name: body
+        label: Treść
+        type: rich-text
+  - name: site
+    label: Ustawienia strony (bio, linki)
+    type: file
+    path: site.json
