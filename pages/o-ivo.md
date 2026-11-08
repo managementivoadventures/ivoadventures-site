@@ -6,9 +6,9 @@ description: Iwona Kuziora, czyli IvoAdventures – twórczyni DIY, ekspertka �
 
 ## Telewizja i radio
 
-Ivo jest **ekspertką DIY w „Halo tu Polsat”** – w porannym programie Polsatu regularnie pokazuje na żywo proste dekoracje na święta i każdą porę roku. Wcześniej, od grudnia 2023, pokazywała swoje pomysły w **„Dzień Dobry TVN”**. Była też gościnią **Programu 1 Polskiego Radia**.
+Ivo jest **ekspertką DIY w „Halo tu Polsat”** – w porannym programie Polsatu regularnie pokazuje na żywo proste dekoracje na święta i każdą porę roku. Wcześniej, od grudnia 2023, pokazywała swoje pomysły w **„Dzień Dobry TVN”**. W marcu 2026 była gościnią **Programu 1 Polskiego Radia** – w audycji „Cztery pory roku” opowiadała o fenomenie DIY.
 
-[Zobacz wszystkie występy w telewizji →](../kategoria/telewizja/)
+[Zobacz wszystkie występy w telewizji i radiu →](../kategoria/telewizja-i-radio/)
 
 ## Remont 100-letniego domu
 

@@ -148,3 +148,4 @@ nav a{margin-left:14px}
 .card.has-img img{width:100%;max-width:none;aspect-ratio:16/9;border-right:0;border-bottom:2px solid var(--ink);background:#eee}
 .card .meta{white-space:nowrap;font-size:11px}
 @media (min-width:700px){.cards{grid-template-columns:1fr 1fr}.cards .card:not(.has-img){grid-column:span 2}}
+.card:not(.has-img) .ctext{padding:0}

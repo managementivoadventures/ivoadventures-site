@@ -16,4 +16,4 @@ Wianek na komunię nie musi kosztować fortuny ani wymagać wizyty u florysty. I
 
 Taki wianek sprawdzi się też na **festiwal, wieczór panieński** czy sesję zdjęciową.
 
-Ivo robiła wianki z kwiatów również na żywo w telewizji – zobacz wpisy z kategorii [Telewizja](../../kategoria/telewizja/).
+Ivo robiła wianki z kwiatów również na żywo w telewizji – zobacz wpisy z kategorii [Telewizja i radio](../../kategoria/telewizja-i-radio/).

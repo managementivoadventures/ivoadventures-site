@@ -52,10 +52,12 @@ def parse_post(p):
         "youtube": str(meta.get("youtube") or "").strip(),
         "html": markdown.markdown(body, extensions=["extra"]),
         "draft": draft is True or str(draft).lower() in ("true", "tak", "yes"),
+        "pinned": meta.get("pinned") is True,
     }
 
 posts = sorted((parse_post(p) for p in (ROOT / "posts").glob("*.md")),
                key=lambda x: (x["date"], x["slug"]), reverse=True)
+posts.sort(key=lambda x: not x["pinned"])  # przypięte na górze, reszta wg daty
 posts = [p for p in posts if DRAFTS or not p["draft"]]
 CATS = []
 for c in S.get("categories", []) + [p["category"] for p in posts]:

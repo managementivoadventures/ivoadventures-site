@@ -30,7 +30,7 @@ content:
         label: Kategoria
         type: select
         options:
-          values: [Telewizja, Poradniki DIY, Starocie, Dom i remont, Aktualności]
+          values: [Telewizja i radio, Poradniki DIY, Starocie, Dom i remont, Aktualności]
       - name: image
         label: Zdjęcie główne
         type: image
@@ -39,6 +39,9 @@ content:
         type: string
       - name: draft
         label: Szkic (nie publikuj)
+        type: boolean
+      - name: pinned
+        label: Przypnij na górze listy
         type: boolean
       - name: body
         label: Treść
