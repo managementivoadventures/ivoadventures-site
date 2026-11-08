@@ -30,13 +30,30 @@ content:
         label: Kategoria
         type: select
         options:
-          values: [Telewizja, Radio, DIY, Współpraca, Wydarzenia, Aktualności]
+          values: [Telewizja, Poradniki DIY, Starocie, Dom i remont, Aktualności]
       - name: image
         label: Zdjęcie główne
         type: image
+      - name: youtube
+        label: ID filmu YouTube (to po watch?v=, np. HA9jRAy0v6w) – film pokaże się we wpisie
+        type: string
       - name: draft
         label: Szkic (nie publikuj)
         type: boolean
+      - name: body
+        label: Treść
+        type: rich-text
+  - name: pages
+    label: Strony stałe (O Ivo)
+    type: collection
+    path: pages
+    fields:
+      - name: title
+        label: Tytuł
+        type: string
+      - name: description
+        label: Opis do Google
+        type: text
       - name: body
         label: Treść
         type: rich-text
