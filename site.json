@@ -67,5 +67,18 @@
       "id": "jGPF4GwP6Gw",
       "title": "Mój ulubiony sklep ze starociami"
     }
-  ]
+  ],
+  "categories": [
+    "Telewizja",
+    "Poradniki DIY",
+    "Starocie",
+    "Dom i remont",
+    "Aktualności"
+  ],
+  "category_descriptions": {
+    "Telewizja": "Występy Iwony Kuziory (IvoAdventures) w „Halo tu Polsat” i „Dzień Dobry TVN” – co pokazała, z czego i jak to zrobić w domu.",
+    "Poradniki DIY": "Proste i tanie DIY krok po kroku: wiązanki i stroiki, wianki, dekoracje do domu i ogrodu.",
+    "Starocie": "Targi staroci, Emaus i perełki z drugiej ręki – co Ivo upolowała i jak daje rzeczom drugie życie.",
+    "Dom i remont": "Remont 100-letniego domu Ivo: kuchnia, łazienka, pracownia i pomysły, które się sprawdziły."
+  }
 }
