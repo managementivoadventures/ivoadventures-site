@@ -199,8 +199,8 @@ home = f"""<section class="hero">
 </section>
 <section class="links"><div class="socials">{socials}</div>
 <a class="btn accent" href="mailto:{S['email']}?subject=Wsp%C3%B3%C5%82praca%20z%20IvoAdventures"><b>Współpraca z marką</b><span>napisz</span></a></section>
-{apps_html}
 {fan_html}
+{apps_html}
 <section><div class="head"><h2>Najnowsze wpisy</h2><a href="{link('', 'aktualnosci/')}">wszystkie →</a></div>
 {cat_pills('')}
 <div class="cards">{latest}</div></section>
