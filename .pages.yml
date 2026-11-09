@@ -23,7 +23,7 @@ content:
         type: date
         required: true
       - name: description
-        label: Opis do Google (1–2 zdania, ok. 150 znaków)
+        label: Opis do Google (1-2 zdania, ok. 150 znaków)
         type: text
         required: true
       - name: category
@@ -35,7 +35,7 @@ content:
         label: Zdjęcie główne
         type: image
       - name: youtube
-        label: ID filmu YouTube (to po watch?v=, np. HA9jRAy0v6w) – film pokaże się we wpisie
+        label: ID filmu YouTube (to po watch?v=, np. HA9jRAy0v6w) - film pokaże się we wpisie
         type: string
       - name: draft
         label: Szkic (nie publikuj)

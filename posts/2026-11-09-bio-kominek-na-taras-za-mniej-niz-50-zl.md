@@ -1,17 +1,17 @@
 ---
 title: Bio kominek na taras za mniej niż 50 zł
 date: 2026-11-09
-description: Bio kominek DIY z donicy, metalowej miseczki i kamyczków – Iwona Kuziora (IvoAdventures) pokazuje tani pomysł na ozdobę tarasu za mniej niż 50 zł.
+description: Bio kominek DIY z donicy, metalowej miseczki i kamyczków - Iwona Kuziora (IvoAdventures) pokazuje tani pomysł na ozdobę tarasu za mniej niż 50 zł.
 category: Poradniki DIY
 youtube: A2NWSrZwaZ8
 ---
-Ogień na tarasie wieczorem robi klimat – a gotowe bio kominki potrafią sporo kosztować. Ivo pokazuje, jak zrobić własny **za mniej niż 50 zł**, z elementów z Action.
+Ogień na tarasie wieczorem robi klimat - a gotowe bio kominki potrafią sporo kosztować. Ivo pokazuje, jak zrobić własny **za mniej niż 50 zł**, z elementów z Action.
 
 ## Czego potrzebujesz
 
-- **donicę** – najlepiej betonową (film, jak ją zrobić samodzielnie, też jest na kanale Ivo),
+- **donicę** - najlepiej betonową (film, jak ją zrobić samodzielnie, też jest na kanale Ivo),
 - **biopaliwo**,
-- **metalową miseczkę** albo puszkę po konserwie – na paliwo,
+- **metalową miseczkę** albo puszkę po konserwie - na paliwo,
 - **kamyczki** do wypełnienia całości.
 
 ## Bezpieczeństwo

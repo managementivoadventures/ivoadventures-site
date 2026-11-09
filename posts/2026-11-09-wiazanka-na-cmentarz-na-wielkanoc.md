@@ -1,11 +1,11 @@
 ---
-title: Wiązanka na cmentarz na Wielkanoc – piękna, trwała i tania
+title: Wiązanka na cmentarz na Wielkanoc - piękna, trwała i tania
 date: 2026-11-09
 description: Wiosenna wiązanka na cmentarz DIY ze sztucznych kwiatów, tui i kolorowych bazi. Iwona Kuziora (IvoAdventures) pokazuje kompozycję odporną na pogodę.
 category: Poradniki DIY
 youtube: dNDR529OSps
 ---
-Wiązanki robimy nie tylko na Wszystkich Świętych. Przed Wielkanocą Ivo pokazuje **wiosenną wersję** – elegancką, trwałą dekorację nagrobną, która wnosi trochę wiosennej świeżości.
+Wiązanki robimy nie tylko na Wszystkich Świętych. Przed Wielkanocą Ivo pokazuje **wiosenną wersję** - elegancką, trwałą dekorację nagrobną, która wnosi trochę wiosennej świeżości.
 
 ## Czego potrzebujesz
 

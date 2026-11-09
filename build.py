@@ -75,7 +75,7 @@ if S.get("photo"): PERSON_LD["image"] = S["url"] + "/" + S["photo"]
 
 def avatar(rel):
     if S["photo"]:
-        return f'<span class="ring"><img class="avatar" src="{rel}{esc(S["photo"])}" alt="{esc(S["name"])} – {esc(S["brand"])}" width="140" height="140"></span>'
+        return f'<span class="ring"><img class="avatar" src="{rel}{esc(S["photo"])}" alt="{esc(S["name"])} - {esc(S["brand"])}" width="140" height="140"></span>'
     return '<div class="avatar mono" aria-hidden="true">Ivo</div>'
 
 def page(rel, path, title, desc, body, ld=None, og_type="website", image=""):
@@ -98,7 +98,7 @@ def page(rel, path, title, desc, body, ld=None, og_type="website", image=""):
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:locale" content="pl_PL">
-<meta property="og:site_name" content="{esc(S['brand'])} – {esc(S['name'])}">
+<meta property="og:site_name" content="{esc(S['brand'])} - {esc(S['name'])}">
 {og_img}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,15 +173,15 @@ home = f"""<section class="hero">
 <div class="vids">{vids}</div></section>
 <section class="media"><h2>Ivo w mediach</h2><ul>{media}</ul></section>
 <section id="wspolpraca" class="contact"><h2>Współpraca</h2>
-<p>Jesteś marką i chcesz współpracować z Ivo? Napisz – odpowiemy i wyślemy media kit.</p>
+<p>Jesteś marką i chcesz współpracować z Ivo? Napisz - odpowiemy i wyślemy media kit.</p>
 <p><a class="btn accent" href="mailto:{S['email']}"><b>{S['email']}</b></a></p>
 <p class="small">Kontakt: Kacper Kuziora, manager</p></section>"""
-write("", page("", "", f"{S['name']} – {S['brand']} | {S['tagline']}", S["description"], home, [PERSON_LD]))
+write("", page("", "", f"{S['name']} - {S['brand']} | {S['tagline']}", S["description"], home, [PERSON_LD]))
 
 # --- lista wpisów + kategorie ---
 all_cards = "".join(post_card(p, "../") for p in posts)
-write("aktualnosci", page("../", "aktualnosci/", f"Wpisy – {S['name']} ({S['brand']})",
-      f"Poradniki DIY, występy w telewizji, starocie i remont domu. Wszystkie wpisy {S['name']} – {S['brand']}.",
+write("aktualnosci", page("../", "aktualnosci/", f"Wpisy - {S['name']} ({S['brand']})",
+      f"Poradniki DIY, występy w telewizji, starocie i remont domu. Wszystkie wpisy {S['name']} - {S['brand']}.",
       f'<section><h1 class="pt">Wpisy</h1>{cat_pills("../")}<div class="cards">{all_cards}</div></section>'))
 CAT_DESC = S.get("category_descriptions", {})
 for c in CATS:
@@ -189,7 +189,7 @@ for c in CATS:
     cs = slugify(c)
     cards = "".join(post_card(p, rel) for p in posts if p["category"] == c)
     intro = CAT_DESC.get(c, "")
-    write(f"kategoria/{cs}", page(rel, f"kategoria/{cs}/", f"{c} – {S['name']} ({S['brand']})",
+    write(f"kategoria/{cs}", page(rel, f"kategoria/{cs}/", f"{c} - {S['name']} ({S['brand']})",
           intro or f"{c}: wpisy {S['name']} ({S['brand']}).",
           f'<section><h1 class="pt">{esc(c)}</h1>{f"<p class=bio-l>{esc(intro)}</p>" if intro else ""}{cat_pills(rel, c)}<div class="cards">{cards}</div></section>'))
 
@@ -217,7 +217,7 @@ for p in posts:
     img = f'<img class="cover" src="{rel}{esc(p["image"])}" alt="{esc(p["title"])}">' if p["image"] else ""
     video = yt_embed(p["youtube"], p["title"]) if p["youtube"] else ""
     rel_cards = "".join(post_card(q, rel) for q in related(p))
-    badge = '<em class="draft">SZKIC – niewidoczny na stronie</em>' if p["draft"] else ""
+    badge = '<em class="draft">SZKIC - niewidoczny na stronie</em>' if p["draft"] else ""
     body = f"""<article class="post">
 <a class="back" href="{link(rel, 'kategoria/' + p['cat_slug'] + '/')}">← {esc(p['category'])}</a>
 {badge}<span class="meta">{esc(p['category'])} · <time datetime="{p['date'].isoformat()}">{pl_date(p['date'])}</time></span>
@@ -238,7 +238,7 @@ for f in sorted((ROOT / "pages").glob("*.md")) if (ROOT / "pages").exists() else
     content = f"""<article class="post page-{slug}">{avatar(rel) if slug == 'o-ivo' else ''}
 <h1>{esc(meta['title'])}</h1>
 <div class="prose">{markdown.markdown(body, extensions=['extra'])}</div></article>"""
-    write(slug, page(rel, f"{slug}/", f"{meta['title']} | {S['name']} – {S['brand']}", meta.get("description", ""), content, ld, "profile" if slug == "o-ivo" else "website"))
+    write(slug, page(rel, f"{slug}/", f"{meta['title']} | {S['name']} - {S['brand']}", meta.get("description", ""), content, ld, "profile" if slug == "o-ivo" else "website"))
     static_pages.append(slug)
 
 # --- SEO: sitemap + robots ---

@@ -4,7 +4,7 @@
   "brand": "IvoAdventures",
   "tagline": "DIY, starocie i dom z charakterem",
   "bio": "Cześć, jestem Ivo! Robię DIY z rzeczy, które inni wyrzucają, odnawiam meble ze śmietnika i targów staroci, a w telewizji pokazuję, jak zrobić coś pięknego z niczego. Ekspertka DIY w „Halo tu Polsat” i gościni Programu 1 Polskiego Radia.",
-  "description": "Iwona Kuziora (IvoAdventures) – ekspertka DIY w „Halo tu Polsat”, twórczyni z ponad 900 tys. obserwujących. Aktualności, występy w TV i radiu, nowe DIY i współpraca.",
+  "description": "Iwona Kuziora (IvoAdventures) - ekspertka DIY w „Halo tu Polsat”, twórczyni z ponad 900 tys. obserwujących. Aktualności, występy w TV i radiu, nowe DIY i współpraca.",
   "photo": "img/ivo.jpg",
   "email": "management@ivoadventures.pl",
   "socials": [
@@ -30,14 +30,14 @@
     }
   ],
   "media": [
-    "Halo tu Polsat – ekspertka DIY (od 2024)",
-    "Dzień Dobry TVN – segmenty DIY (2023–2024)",
-    "Program 1 Polskiego Radia – gościni"
+    "Halo tu Polsat - ekspertka DIY (od 2024)",
+    "Dzień Dobry TVN - segmenty DIY (2023-2024)",
+    "Program 1 Polskiego Radia - gościni"
   ],
   "videos": [
     {
       "id": "HA9jRAy0v6w",
-      "title": "Wiązanka na cmentarz praktycznie za darmo – stroik na Wszystkich Świętych"
+      "title": "Wiązanka na cmentarz praktycznie za darmo - stroik na Wszystkich Świętych"
     },
     {
       "id": "s7Ng24FFVGA",
@@ -45,11 +45,11 @@
     },
     {
       "id": "uKiK8CaYg9I",
-      "title": "Fontanna do ogrodu za 35 zł – krok po kroku"
+      "title": "Fontanna do ogrodu za 35 zł - krok po kroku"
     },
     {
       "id": "dNDR529OSps",
-      "title": "Wiązanka na Wielkanoc – piękna i tania, prawie bez kosztów"
+      "title": "Wiązanka na Wielkanoc - piękna i tania, prawie bez kosztów"
     },
     {
       "id": "xBZbXYQvaao",
@@ -61,7 +61,7 @@
     },
     {
       "id": "LKvra6_96zs",
-      "title": "Wianek komunijny DIY – szybko i tanio"
+      "title": "Wianek komunijny DIY - szybko i tanio"
     },
     {
       "id": "jGPF4GwP6Gw",
@@ -77,8 +77,8 @@
   ],
   "category_descriptions": {
     "Poradniki DIY": "Proste i tanie DIY krok po kroku: wiązanki i stroiki, wianki, dekoracje do domu i ogrodu.",
-    "Starocie": "Targi staroci, Emaus i perełki z drugiej ręki – co Ivo upolowała i jak daje rzeczom drugie życie.",
+    "Starocie": "Targi staroci, Emaus i perełki z drugiej ręki - co Ivo upolowała i jak daje rzeczom drugie życie.",
     "Dom i remont": "Remont 100-letniego domu Ivo: kuchnia, łazienka, pracownia i pomysły, które się sprawdziły.",
-    "Telewizja i radio": "Występy Iwony Kuziory (IvoAdventures) w „Halo tu Polsat”, „Dzień Dobry TVN” i Programie 1 Polskiego Radia – co pokazała, z czego i jak to zrobić w domu."
+    "Telewizja i radio": "Występy Iwony Kuziory (IvoAdventures) w „Halo tu Polsat”, „Dzień Dobry TVN” i Programie 1 Polskiego Radia - co pokazała, z czego i jak to zrobić w domu."
   }
 }

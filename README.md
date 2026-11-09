@@ -1,4 +1,4 @@
-# ivoadventures.pl – strona + aktualności
+# ivoadventures.pl - strona + aktualności
 
 Prosta statyczna strona (bez WordPressa, bez bazy danych): link in bio + blog „Aktualności”.
 
@@ -9,10 +9,10 @@ Prosta statyczna strona (bez WordPressa, bez bazy danych): link in bio + blog �
    ---
    title: Ivo w Programie 1 Polskiego Radia
    date: 2026-11-20
-   description: 1–2 zdania do Google (ok. 150 znaków), z „Iwona Kuziora” i „IvoAdventures”.
+   description: 1-2 zdania do Google (ok. 150 znaków), z „Iwona Kuziora” i „IvoAdventures”.
    category: Radio
    image: img/radio-2026-11.jpg   (opcjonalnie)
-   draft: tak                      (opcjonalnie – ukrywa wpis)
+   draft: tak                      (opcjonalnie - ukrywa wpis)
    ---
    ```
 3. Treść w Markdown (`## nagłówek`, `- lista`, `**pogrubienie**`, `[link](https://...)`).
@@ -27,7 +27,7 @@ Wrzuć do `img/`. Zdjęcie profilowe: `img/ivo.jpg` i w `site.json` ustaw `"phot
 - dane strukturalne Person (Iwona Kuziora = IvoAdventures + profile społecznościowe) i BlogPosting,
 - sitemap.xml, robots.txt, canonical, Open Graph (ładne podglądy linków na FB/Messengerze).
 - Po publikacji: dodać domenę w Google Search Console i zgłosić `https://ivoadventures.pl/sitemap.xml`.
-- Wpisać `https://ivoadventures.pl` jako stronę w bio IG/TikTok/YT/FB – to wzajemne linkowanie pomaga Google powiązać profile.
+- Wpisać `https://ivoadventures.pl` jako stronę w bio IG/TikTok/YT/FB - to wzajemne linkowanie pomaga Google powiązać profile.
 
 ## Hosting
 Zawartość `public/` wrzuca się na dowolny hosting (GitHub Pages / Netlify / Cloudflare Pages za darmo albo FTP u obecnego dostawcy domeny). Plik `CNAME` jest dla GitHub Pages.
