@@ -158,6 +158,19 @@ socials = "".join(f'<a class="tile" href="{esc(s["url"])}" rel="me noopener" tar
 media = "".join(f"<li>{esc(m)}</li>" for m in S["media"])
 latest = "".join(post_card(p, "") for p in posts[:4])
 vids = "".join(f'<a class="vid" href="https://www.youtube.com/watch?v={v["id"]}" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/{v["id"]}/hqdefault.jpg" alt="{esc(v["title"])}" loading="lazy" width="480" height="360"><i>▶</i></span><b>{esc(v["title"])}</b></a>' for v in S.get("videos", []))
+F = S.get("fans", {})
+def ext(u): return u.startswith("http")
+fan_html = ""
+if F:
+    c = F["course"]
+    codes = "".join(f'<div class="code"><b>{esc(x["brand"])}</b><span>{esc(x["what"])}</span><button type="button" class="cp" data-code="{esc(x["code"])}" title="Kopiuj kod">{esc(x["code"])}<i>kopiuj</i></button><a href="{esc(x["url"])}" target="_blank" rel="noopener sponsored">Przejdź do sklepu →</a></div>' for x in F["codes"])
+    media_tiles = [F["tv"]] + F.get("radio", [])
+    mt = "".join(f'<a class="mtile" href="{esc(m["url"]) if ext(m["url"]) else link("", m["url"])}"{" target=_blank rel=noopener" if ext(m["url"]) else ""}><b>{esc(m["title"])}</b><span>{esc(m["sub"])}</span></a>' for m in media_tiles)
+    fan_html = f"""<section class="fans"><h2>Dla fanów Ivo</h2>
+<a class="course" href="{esc(c['url'])}" target="_blank" rel="noopener"><span class="ico">🎨</span><span><b>{esc(c['title'])}</b><small>{esc(c['sub'])}</small></span><em>{esc(c['cta'])} →</em></a>
+<div class="codes">{codes}</div><p class="note small">{esc(F['codes_note'])}</p>
+<div class="mtiles">{mt}</div></section>
+<script>document.addEventListener('click',function(e){{var b=e.target.closest('.cp');if(!b)return;var c=b.dataset.code;function ok(){{b.classList.add('ok');b.querySelector('i').textContent='skopiowano!';setTimeout(function(){{b.classList.remove('ok');b.querySelector('i').textContent='kopiuj'}},1800)}}try{{navigator.clipboard.writeText(c).then(ok,ok)}}catch(_){{ok()}}}});</script>"""
 home = f"""<section class="hero">
 {avatar('')}
 <h1>{esc(S['name'])}<small>{esc(S['brand'])}</small></h1>
@@ -166,6 +179,7 @@ home = f"""<section class="hero">
 </section>
 <section class="links"><div class="socials">{socials}</div>
 <a class="btn accent" href="mailto:{S['email']}?subject=Wsp%C3%B3%C5%82praca%20z%20IvoAdventures"><b>Współpraca z marką</b><span>napisz</span></a></section>
+{fan_html}
 <section><div class="head"><h2>Najnowsze wpisy</h2><a href="{link('', 'aktualnosci/')}">wszystkie →</a></div>
 {cat_pills('')}
 <div class="cards">{latest}</div></section>

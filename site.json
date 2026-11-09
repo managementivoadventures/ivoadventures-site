@@ -80,5 +80,40 @@
     "Starocie": "Targi staroci, Emaus i perełki z drugiej ręki - co Ivo upolowała i jak daje rzeczom drugie życie.",
     "Dom i remont": "Remont 100-letniego domu Ivo: kuchnia, łazienka, pracownia i pomysły, które się sprawdziły.",
     "Telewizja i radio": "Występy Iwony Kuziory (IvoAdventures) w „Halo tu Polsat”, „Dzień Dobry TVN” i Programie 1 Polskiego Radia - co pokazała, z czego i jak to zrobić w domu."
+  },
+  "fans": {
+    "course": {
+      "title": "Kurs rysowania w Procreate",
+      "sub": "Rysuj z Ivo - od pierwszej kreski do własnej kartki",
+      "url": "https://www.naffy.io/ivoadventures/rysuj-z-ivo-od-pierwszej-kreski-do-wlasnej-kartki-kurs-procreate-oq5",
+      "cta": "Zobacz kurs"
+    },
+    "codes": [
+      {
+        "brand": "Foodify",
+        "what": "catering z dostawą pod drzwi",
+        "code": "IVOADVENTURES15",
+        "url": "https://foodify.com"
+      },
+      {
+        "brand": "Lantre",
+        "what": "autoryzowany sklep Apple",
+        "code": "IVO100",
+        "url": "https://lantre.pl"
+      }
+    ],
+    "codes_note": "Kody od partnerów Ivo - współpraca reklamowa.",
+    "tv": {
+      "title": "Ivo w „Halo tu Polsat”",
+      "sub": "Ekspertka DIY w porannym programie Polsatu. Zobacz wszystkie występy.",
+      "url": "aktualnosci/ivo-ekspertka-diy-halo-tu-polsat/"
+    },
+    "radio": [
+      {
+        "title": "Ivo w Jedynce",
+        "sub": "„Cztery pory roku” - o fenomenie DIY z Romanem Czejarkiem (9.03.2026)",
+        "url": "https://www.polskieradio.pl/jedynka/audycje/cztery-pory-roku,163/odcinek/idea-samodzielnego-tworzenia-naprawiania-lub-modyfikowania-przedmiotow-o-fenomenie-zjawiska-romanowi-czejarkowi-opowiada-iwona-kuziora-,41996872-4baa-465c-8eba-0a148339b8b0"
+      }
+    ]
   }
 }
