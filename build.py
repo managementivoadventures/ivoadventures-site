@@ -162,15 +162,16 @@ F = S.get("fans", {})
 def ext(u): return u.startswith("http")
 fan_html = ""
 if F:
-    c = F["course"]
-    codes = "".join(f'<div class="code"><b>{esc(x["brand"])}</b><span>{esc(x["what"])}</span><button type="button" class="cp" data-code="{esc(x["code"])}" title="Kopiuj kod">{esc(x["code"])}<i>kopiuj</i></button><a href="{esc(x["url"])}" target="_blank" rel="noopener sponsored">Przejdź do sklepu →</a></div>' for x in F["codes"])
-    media_tiles = [F["tv"]] + F.get("radio", [])
-    mt = "".join(f'<a class="mtile" href="{esc(m["url"]) if ext(m["url"]) else link("", m["url"])}"{" target=_blank rel=noopener" if ext(m["url"]) else ""}><b>{esc(m["title"])}</b><span>{esc(m["sub"])}</span></a>' for m in media_tiles)
-    fan_html = f"""<section class="fans"><h2>Dla fanów Ivo</h2>
-<a class="course" href="{esc(c['url'])}" target="_blank" rel="noopener"><span class="ico">🎨</span><span><b>{esc(c['title'])}</b><small>{esc(c['sub'])}</small></span><em>{esc(c['cta'])} →</em></a>
-<div class="codes">{codes}</div><p class="note small">{esc(F['codes_note'])}</p>
-<div class="mtiles">{mt}</div></section>
-<script>document.addEventListener('click',function(e){{var b=e.target.closest('.cp');if(!b)return;var c=b.dataset.code;function ok(){{b.classList.add('ok');b.querySelector('i').textContent='skopiowano!';setTimeout(function(){{b.classList.remove('ok');b.querySelector('i').textContent='kopiuj'}},1800)}}try{{navigator.clipboard.writeText(c).then(ok,ok)}}catch(_){{ok()}}}});</script>"""
+    rows = []
+    for it in F["items"]:
+        href = esc(it["url"]) if ext(it["url"]) else link("", it["url"])
+        tgt = ' target="_blank" rel="noopener' + (' sponsored"' if it.get("code") else '"') if ext(it["url"]) else ""
+        right = (f'<button type="button" class="cp" data-code="{esc(it["code"])}">{esc(it["code"])}<i>kopiuj</i></button>'
+                 if it.get("code") else '<span class="arr">→</span>')
+        rows.append(f'<div class="row"><a class="rowlink" href="{href}"{tgt}><span class="ico">{it["icon"]}</span><span class="rt"><b>{esc(it["title"])}</b><small>{esc(it["sub"])}</small></span></a>{right}</div>')
+    fan_html = f"""<section class="fans"><h2>Dla fanów Ivo</h2><div class="rows">{"".join(rows)}</div>
+<p class="note small">{esc(F['codes_note'])}</p></section>
+<script>document.addEventListener('click',function(e){{var b=e.target.closest('.cp');if(!b)return;var c=b.dataset.code,i=b.querySelector('i');function ok(){{b.classList.add('ok');i.textContent='skopiowano!';setTimeout(function(){{b.classList.remove('ok');i.textContent='kopiuj'}},1800)}}try{{navigator.clipboard.writeText(c).then(ok,ok)}}catch(_){{ok()}}}});</script>"""
 home = f"""<section class="hero">
 {avatar('')}
 <h1>{esc(S['name'])}<small>{esc(S['brand'])}</small></h1>

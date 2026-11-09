@@ -34,6 +34,7 @@ Od 2024 roku Iwona Kuziora, czyli **IvoAdventures**, regularnie pojawia się w p
 
 ## Radio
 
-- [Program 1 Polskiego Radia - „Cztery pory roku”](../ivo-w-jedynce-cztery-pory-roku/) - 9 marca 2026
+- [Program 1 Polskiego Radia - „Cztery pory roku”: fenomen DIY](../ivo-w-jedynce-cztery-pory-roku/) - 9 marca 2026
+- [Program 1 Polskiego Radia - „Cztery pory roku”: szycie i naprawy](../ivo-w-jedynce-szycie-i-naprawy/)
 
 Chcesz zobaczyć więcej projektów krok po kroku? Zajrzyj na kanał [YouTube @ivoadventures](https://youtube.com/@ivoadventures).
