@@ -149,3 +149,10 @@ nav a{margin-left:14px}
 .card .meta{white-space:nowrap;font-size:11px}
 @media (min-width:700px){.cards{grid-template-columns:1fr 1fr}.cards .card:not(.has-img){grid-column:span 2}}
 .card:not(.has-img) .ctext{padding:0}
+
+/* platformy 2x2 */
+.socials{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:12px 8px;background:#fff;border:2px solid var(--ink);border-radius:14px;box-shadow:3px 3px 0 var(--ink);text-decoration:none;transition:transform .15s}
+.tile:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
+.tile b{font-size:15px}
+.tile span{font-size:12.5px;color:var(--muted)}

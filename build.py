@@ -154,7 +154,7 @@ if not PREVIEW:
     (OUT / "CNAME").write_text(S["url"].split("//")[1] + "\n")
 
 # --- strona główna (link in bio) ---
-socials = "".join(f'<a class="btn" href="{esc(s["url"])}" rel="me noopener" target="_blank"><b>{esc(s["label"])}</b><span>{esc(s["count"])}</span></a>' for s in S["socials"])
+socials = "".join(f'<a class="tile" href="{esc(s["url"])}" rel="me noopener" target="_blank"><b>{esc(s["label"])}</b><span>{esc(s["count"])}</span></a>' for s in S["socials"])
 media = "".join(f"<li>{esc(m)}</li>" for m in S["media"])
 latest = "".join(post_card(p, "") for p in posts[:4])
 vids = "".join(f'<a class="vid" href="https://www.youtube.com/watch?v={v["id"]}" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/{v["id"]}/hqdefault.jpg" alt="{esc(v["title"])}" loading="lazy" width="480" height="360"><i>▶</i></span><b>{esc(v["title"])}</b></a>' for v in S.get("videos", []))
@@ -164,7 +164,7 @@ home = f"""<section class="hero">
 <p class="tag">{esc(S['tagline'])}</p>
 <p class="bio">{esc(S['bio'])} <a class="more" href="{link('', 'o-ivo/')}">Więcej o Ivo →</a></p>
 </section>
-<section class="links">{socials}
+<section class="links"><div class="socials">{socials}</div>
 <a class="btn accent" href="mailto:{S['email']}?subject=Wsp%C3%B3%C5%82praca%20z%20IvoAdventures"><b>Współpraca z marką</b><span>napisz</span></a></section>
 <section><div class="head"><h2>Najnowsze wpisy</h2><a href="{link('', 'aktualnosci/')}">wszystkie →</a></div>
 {cat_pills('')}
