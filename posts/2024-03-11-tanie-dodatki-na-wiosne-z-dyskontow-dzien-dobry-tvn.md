@@ -3,6 +3,7 @@ title: "Tanie dodatki do mieszkania na wiosnę z dyskontów - Ivo w „Dzień Do
 date: 2024-03-11
 description: "Lampa z suszonymi kwiatami, łapacz snów w stylu boho i torebki z nasionami - Iwona Kuziora (IvoAdventures) w „Dzień Dobry TVN” o tanich wiosennych dodatkach."
 category: Telewizja i radio
+station: tvn
 ---
 W marcu 2024 Ivo pokazała w „Dzień Dobry TVN”, że wiosenne dodatki do mieszkania można znaleźć w dyskontach za niewielkie pieniądze. Wśród jej wyborów były m.in. **lampa z suszonymi kwiatami**, **łapacz snów w stylu boho** i **torebki z nasionami w sprasowanej ziemi**. W studiu byli Paulina Krupińska-Karpiel i Damian Michałowski.
 

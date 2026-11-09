@@ -3,6 +3,7 @@ title: "Jak udekorować koszyczek wielkanocny? Pomysły Ivo z „Dzień Dobry TV
 date: 2024-03-26
 description: "Koszyczek wielkanocny z koronką i gipsówką - Iwona Kuziora (IvoAdventures) w „Dzień Dobry TVN” pokazała, jak pięknie przystroić święconkę."
 category: Telewizja i radio
+station: tvn
 ---
 Przed Wielkanocą 2024 Ivo pokazała w „Dzień Dobry TVN”, jak w prosty sposób odmienić zwykły koszyk na święconkę: **stara koronka**, **gałązki gipsówki** i **kokardy ze wstążki**. Efekt jest delikatny, trochę w stylu vintage - i pasuje do każdego koszyka.
 

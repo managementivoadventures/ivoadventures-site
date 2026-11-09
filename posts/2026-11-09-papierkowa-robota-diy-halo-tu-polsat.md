@@ -3,6 +3,7 @@ title: "„Papierkowa robota”, czyli DIY z papieru z Iwoną Kuziorą"
 date: 2026-11-09
 description: "Papierowy piknik, figurki z rolek po papierze toaletowym i proste origami - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” o zabawach z papierem dla dzieci."
 category: Telewizja i radio
+station: polsat
 ---
 W odcinku „Papierkowa robota” Ivo pokazała w „Halo tu Polsat”, ile zabawy z dziećmi można wyczarować ze zwykłego papieru.
 

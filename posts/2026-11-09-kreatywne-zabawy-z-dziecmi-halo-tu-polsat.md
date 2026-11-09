@@ -3,6 +3,7 @@ title: "Kreatywne zabawy z dziećmi zamiast tabletu - pomysły Ivo z „Halo tu 
 date: 2026-11-09
 description: "Sensoryczny „tablet” z papieru, żelowe woreczki ze skarbami i butelka antystresowa - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” o zabawach z dziećmi bez ekranu."
 category: Telewizja i radio
+station: polsat
 ---
 Jak zająć dzieci bez tabletu i smartfona - zwłaszcza w pochmurne dni? Ivo pokazała w „Halo tu Polsat” kilka prostych zabawek DIY.
 

@@ -3,6 +3,7 @@ title: "Rękodzieło zamiast gotowców: wiosenne i wielkanocne dekoracje Ivo w �
 date: 2026-11-09
 description: "Wianek z tulipanów, taca z masy samoutwardzalnej, zające z bandaża gipsowego i świece z nadrukiem z serwetek - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” wiosną 2026."
 category: Telewizja i radio
+station: polsat
 ---
 Wiosną 2026 Ivo pokazała w „Halo tu Polsat”, że wyjątkowe dekoracje na Wielkanoc warto zrobić samemu. W studiu byli m.in. Tomasz Wolny i Paulina Sykut-Jeżyna.
 

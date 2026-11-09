@@ -3,6 +3,7 @@ title: "Jak dbać o swetry? Jesienne porady Ivo z „Halo tu Polsat”"
 date: 2026-11-09
 description: "Golarka do swetrów, odżywka do włosów, suszenie na płasko, zamrażarka i soda - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” o tym, jak przedłużyć życie swetrom."
 category: Telewizja i radio
+station: polsat
 ---
 Jesienią 2025 Ivo rozmawiała w „Halo tu Polsat” o wyzwaniach jesiennej garderoby - czyli o swetrach, które mechacą się, gryzą i tracą kształt.
 

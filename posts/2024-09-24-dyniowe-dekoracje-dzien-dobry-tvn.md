@@ -3,6 +3,7 @@ title: "Dyniowe dekoracje DIY: świecąca dynia z rury od klimatyzacji - Ivo w �
 date: 2024-09-24
 description: "Świecąca dynia z rury od klimatyzacji, dynia z wypełniacza do koka i dynia ze skarpetki - jesienne DIY Iwony Kuziory (IvoAdventures) w „Dzień Dobry TVN”."
 category: Telewizja i radio
+station: tvn
 ---
 Jesienią 2024 Ivo pokazała w „Dzień Dobry TVN” trzy dynie, do których nie potrzebujesz prawdziwej dyni:
 

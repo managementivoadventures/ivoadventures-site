@@ -53,6 +53,7 @@ def parse_post(p):
         "html": markdown.markdown(body, extensions=["extra"]),
         "draft": draft is True or str(draft).lower() in ("true", "tak", "yes"),
         "pinned": meta.get("pinned") is True,
+        "station": str(meta.get("station") or ""),
     }
 
 posts = sorted((parse_post(p) for p in (ROOT / "posts").glob("*.md")),
@@ -118,6 +119,11 @@ def page(rel, path, title, desc, body, ld=None, og_type="website", image=""):
 </html>
 """
 
+STATIONS = S.get("stations", {})
+def logo_of(p, rel):
+    st = STATIONS.get(p.get("station", ""))
+    return rel + st["logo"] if st else ""
+
 def thumb_of(p, rel):
     if p["image"]: return rel + p["image"]
     if p["youtube"]: return f"https://i.ytimg.com/vi/{p['youtube']}/hqdefault.jpg"
@@ -125,7 +131,12 @@ def thumb_of(p, rel):
 
 def post_card(p, rel):
     t = thumb_of(p, rel)
+    lg = logo_of(p, rel)
     timg = f'<img src="{esc(t)}" alt="" loading="lazy">' if t else ""
+    if not t and lg:
+        t = lg
+        timg = f'<span class="logo-thumb" style="background:{STATIONS[p["station"]].get("bg","#fff")}"><img src="{esc(lg)}" alt="{esc(STATIONS[p["station"]]["name"])}" loading="lazy"></span>'
+
     badge = '<em class="draft">SZKIC</em> ' if p["draft"] else ""
     return f"""<a class="card{' has-img' if t else ''}" href="{link(rel, 'aktualnosci/' + p['slug'] + '/')}">{timg}<span class="ctext">
 <span class="meta">{esc(p['category'])} · {pl_date(p['date'])}</span>
@@ -172,6 +183,14 @@ if F:
     fan_html = f"""<section class="fans"><h2>Dla fanów Ivo</h2><div class="rows">{"".join(rows)}</div>
 <p class="note small">{esc(F['codes_note'])}</p></section>
 <script>document.addEventListener('click',function(e){{var b=e.target.closest('.cp');if(!b)return;var c=b.dataset.code,i=b.querySelector('i');function ok(){{b.classList.add('ok');i.textContent='skopiowano!';setTimeout(function(){{b.classList.remove('ok');i.textContent='kopiuj'}},1800)}}try{{navigator.clipboard.writeText(c).then(ok,ok)}}catch(_){{ok()}}}});</script>"""
+BY_SLUG = {p["slug"]: p for p in posts}
+apps = []
+for a in S.get("appearances", []):
+    p = BY_SLUG.get(a["post"])
+    if not p or p.get("station") not in STATIONS: continue
+    stn = STATIONS[p["station"]]
+    apps.append(f'<a class="app" href="{link("", "aktualnosci/" + p["slug"] + "/")}"><span class="applogo" style="background:{stn.get('bg','#fff')}"><img src="{esc(stn["logo"])}" alt="{esc(stn["name"])}" loading="lazy"></span><span class="apptxt"><em>{esc(a["when"])}</em><b>{esc(p["title"])}</b></span></a>')
+apps_html = f"""<section class="apps-sec"><div class="head"><h2>Najnowsze występy</h2><a href="{link('', 'kategoria/telewizja-i-radio/')}">wszystkie →</a></div><div class="apps">{"".join(apps)}</div></section>""" if apps else ""
 home = f"""<section class="hero">
 {avatar('')}
 <h1>{esc(S['name'])}<small>{esc(S['brand'])}</small></h1>
@@ -180,6 +199,7 @@ home = f"""<section class="hero">
 </section>
 <section class="links"><div class="socials">{socials}</div>
 <a class="btn accent" href="mailto:{S['email']}?subject=Wsp%C3%B3%C5%82praca%20z%20IvoAdventures"><b>Współpraca z marką</b><span>napisz</span></a></section>
+{apps_html}
 {fan_html}
 <section><div class="head"><h2>Najnowsze wpisy</h2><a href="{link('', 'aktualnosci/')}">wszystkie →</a></div>
 {cat_pills('')}
@@ -230,6 +250,9 @@ for p in posts:
                     "embedUrl": f"https://www.youtube.com/embed/{p['youtube']}",
                     "contentUrl": f"https://www.youtube.com/watch?v={p['youtube']}"})
     img = f'<img class="cover" src="{rel}{esc(p["image"])}" alt="{esc(p["title"])}">' if p["image"] else ""
+    if p.get("station") in STATIONS:
+        stn = STATIONS[p["station"]]
+        img = f'<div class="stbadge"><img src="{rel}{esc(stn["logo"])}" alt="{esc(stn["name"])}"><span>{esc(stn["name"])}</span></div>' + img
     video = yt_embed(p["youtube"], p["title"]) if p["youtube"] else ""
     rel_cards = "".join(post_card(q, rel) for q in related(p))
     badge = '<em class="draft">SZKIC - niewidoczny na stronie</em>' if p["draft"] else ""

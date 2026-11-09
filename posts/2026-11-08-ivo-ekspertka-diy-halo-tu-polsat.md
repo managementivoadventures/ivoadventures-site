@@ -3,6 +3,7 @@ title: Ivo - ekspertka DIY w „Halo tu Polsat”. Wszystkie występy w jednym m
 date: 2026-11-08
 description: Iwona Kuziora (IvoAdventures) od 2024 roku pokazuje w „Halo tu Polsat” proste DIY na każdą porę roku, a wcześniej w „Dzień Dobry TVN”. Spis wszystkich występów z linkami.
 category: Telewizja i radio
+station: polsat
 pinned: true
 ---
 Od 2024 roku Iwona Kuziora, czyli **IvoAdventures**, regularnie pojawia się w porannym programie **„Halo tu Polsat”** jako ekspertka DIY. W kilkuminutowych segmentach na żywo pokazuje, jak z tanich i prostych materiałów zrobić dekoracje, które wyglądają jak ze sklepu. Wcześniej, od grudnia 2023, gościła w **„Dzień Dobry TVN”**.

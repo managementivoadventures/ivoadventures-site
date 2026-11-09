@@ -3,6 +3,7 @@ title: "Ivo w Jedynce: o fenomenie DIY w audycji „Cztery pory roku”"
 date: 2026-03-09
 description: "Iwona Kuziora (IvoAdventures) w Programie 1 Polskiego Radia - w audycji „Cztery pory roku” rozmawiała z Romanem Czejarkiem o fenomenie DIY."
 category: Telewizja i radio
+station: jedynka
 ---
 **9 marca 2026** Ivo była gościnią **Programu 1 Polskiego Radia** - w audycji **„Cztery pory roku”** rozmawiała z **Romanem Czejarkiem** o fenomenie DIY: o tym, dlaczego coraz więcej osób chce samodzielnie tworzyć, naprawiać i przerabiać przedmioty, zamiast kupować nowe.
 

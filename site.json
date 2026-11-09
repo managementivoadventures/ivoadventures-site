@@ -92,36 +92,66 @@
       {
         "icon": "🍔",
         "title": "Foodify",
-        "sub": "Catering z dostawą pod drzwi",
+        "sub": "-15% na catering z dostawą pod drzwi",
         "url": "https://foodify.com",
         "code": "IVOADVENTURES15"
       },
       {
         "icon": "📲",
         "title": "Lantre",
-        "sub": "Autoryzowany sklep Apple",
+        "sub": "-100 zł przy zakupach od 1999 zł (sklep Apple)",
         "url": "https://lantre.pl",
         "code": "IVO100"
-      },
-      {
-        "icon": "📺",
-        "title": "Ivo w „Halo tu Polsat”",
-        "sub": "Wszystkie występy w telewizji",
-        "url": "aktualnosci/ivo-ekspertka-diy-halo-tu-polsat/"
-      },
-      {
-        "icon": "📻",
-        "title": "Jedynka: fenomen DIY",
-        "sub": "„Cztery pory roku” z Romanem Czejarkiem",
-        "url": "https://www.polskieradio.pl/jedynka/audycje/cztery-pory-roku,163/odcinek/idea-samodzielnego-tworzenia-naprawiania-lub-modyfikowania-przedmiotow-o-fenomenie-zjawiska-romanowi-czejarkowi-opowiada-iwona-kuziora-,41996872-4baa-465c-8eba-0a148339b8b0"
-      },
-      {
-        "icon": "🧵",
-        "title": "Jedynka: szycie i naprawy",
-        "sub": "Czy potrafimy jeszcze szyć? Rozmowa z Dagmarą Kowalską",
-        "url": "https://www.polskieradio.pl/jedynka/audycje/cztery-pory-roku,163/odcinek/czy-potrafimy-jeszcze-wykonywac-proste-czynnosci-jak-szycie-czy-naprawy-dagmara-kowalska-rozmawia-z-iwona-kuziora,4c6d2dbe-2fee-4217-9643-ead4f6aa3503"
       }
     ],
     "codes_note": "Kody od partnerów Ivo - współpraca reklamowa."
-  }
+  },
+  "stations": {
+    "polsat": {
+      "name": "Halo tu Polsat",
+      "logo": "img/media/polsat.png",
+      "bg": "#ffe45c"
+    },
+    "tvn": {
+      "name": "Dzień Dobry TVN",
+      "logo": "img/media/tvn.png",
+      "bg": "#ffffff"
+    },
+    "jedynka": {
+      "name": "Jedynka - Polskie Radio",
+      "logo": "img/media/jedynka.png",
+      "bg": "#f07c0a"
+    },
+    "zet": {
+      "name": "Radio ZET",
+      "logo": "img/media/zet.png",
+      "bg": "#ffffff"
+    }
+  },
+  "appearances": [
+    {
+      "post": "ivo-w-jedynce-szycie-i-naprawy",
+      "when": "2026"
+    },
+    {
+      "post": "wianek-z-kwiatow-na-glowe-halo-tu-polsat",
+      "when": "wiosna 2026"
+    },
+    {
+      "post": "ivo-w-jedynce-cztery-pory-roku",
+      "when": "9.03.2026"
+    },
+    {
+      "post": "rekodzielo-wielkanoc-halo-tu-polsat-2026",
+      "when": "wiosna 2026"
+    },
+    {
+      "post": "swiateczne-ozdoby-z-podkladu-pod-panele-halo-tu-polsat",
+      "when": "7.12.2025"
+    },
+    {
+      "post": "jak-dbac-o-swetry-halo-tu-polsat",
+      "when": "jesień 2025"
+    }
+  ]
 }

@@ -3,6 +3,7 @@ title: "Świąteczne ozdoby z podkładu pod panele i serwetek - Ivo w „Halo tu
 date: 2026-11-09
 description: "Ozdoby choinkowe z pianki pod panele i papierowych serwetek - Iwona Kuziora (IvoAdventures) w niedzielnym wydaniu „Halo tu Polsat” 7 grudnia 2025."
 category: Telewizja i radio
+station: polsat
 ---
 W niedzielnym wydaniu „Halo tu Polsat” **7 grudnia 2025** Ivo pokazała, jak z resztek po remoncie zrobić świąteczne ozdoby. Bazą jest **piankowy podkład pod panele** - lekki, łatwy do cięcia i tani - a dekoracją **papierowe serwetki i koronkowe serwetki cukiernicze**.
 

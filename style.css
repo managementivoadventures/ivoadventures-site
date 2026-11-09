@@ -172,3 +172,24 @@ nav a{margin-left:14px}
 .cp i{display:block;font-style:normal;font-weight:500;font-size:10.5px}
 .cp.ok{background:#b8f2b0;border-style:solid}
 .fans .note{margin:8px 0 0}
+
+/* platformy - mniejsze, w jednym rzędzie */
+.socials{grid-template-columns:repeat(4,1fr);gap:6px}
+.tile{padding:7px 4px;border-radius:10px;box-shadow:2px 2px 0 var(--ink);border-width:1.5px}
+.tile b{font-size:12.5px}
+.tile span{font-size:11px}
+/* najnowsze występy */
+.apps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.app{display:flex;flex-direction:column;background:#fff;border:2px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:3px 3px 0 var(--ink);text-decoration:none;transition:transform .15s}
+.app:hover{transform:translate(-2px,-2px)}
+.applogo{display:block;height:74px;border-bottom:2px solid var(--ink);background:#fff;overflow:hidden}
+.applogo img{width:100%;height:100%;object-fit:cover;display:block}
+.apptxt{display:block;padding:9px 10px 11px}
+.apptxt em{display:inline-block;font-style:normal;font-size:11px;font-weight:700;background:#ffe14d;border:1.5px solid var(--ink);border-radius:6px;padding:0 6px;margin-bottom:5px}
+.apptxt b{display:block;font-size:13px;line-height:1.3}
+.logo-thumb{display:block;aspect-ratio:16/6;border-bottom:2px solid var(--ink);overflow:hidden;background:#fff}
+.logo-thumb img{width:100%!important;height:100%;object-fit:cover;border:0!important;aspect-ratio:auto!important}
+.stbadge{display:flex;align-items:center;gap:10px;margin:0 0 16px}
+.stbadge img{height:44px;width:auto;border:2px solid var(--ink);border-radius:10px;background:#fff}
+.stbadge span{font-weight:700;font-size:14px}
+.applogo img,.logo-thumb img{object-fit:contain!important}

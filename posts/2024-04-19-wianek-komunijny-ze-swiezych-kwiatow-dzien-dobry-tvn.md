@@ -3,6 +3,7 @@ title: "Wianek komunijny ze świeżych kwiatów - prosty sposób Ivo z „Dzień
 date: 2024-04-19
 description: "Wianek komunijny z małych bukiecików przyklejanych taśmą do opaski - Iwona Kuziora (IvoAdventures) w „Dzień Dobry TVN” pokazała sprawdzony sposób."
 category: Telewizja i radio
+station: tvn
 ---
 W kwietniu 2024 Ivo pokazała w „Dzień Dobry TVN” prosty i sprawdzony sposób na **wianek komunijny ze świeżych kwiatów**: małe bukieciki przyklejane taśmą florystyczną do opaski na włosy. Wianek jest lekki, wygodny i trzyma się na głowie przez całą uroczystość.
 

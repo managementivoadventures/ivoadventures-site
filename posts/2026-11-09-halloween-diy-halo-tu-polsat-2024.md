@@ -3,6 +3,7 @@ title: "Halloween DIY w „Halo tu Polsat”: 5 dekoracji nie tylko z dyni"
 date: 2026-11-09
 description: "Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” pokazała 5 pomysłów na halloweenowe dekoracje DIY: dynie-duszki malowane kciukiem, świece-duchy, duszki z gazy i miotły z cukierkami."
 category: Telewizja i radio
+station: polsat
 ---
 Jesienią 2024 Ivo przyniosła do studia „Halo tu Polsat” pięć pomysłów na Halloween, które zrobisz w domu z dziećmi - i to nie tylko z dyni. W studiu byli m.in. Maciej Rock i Agnieszka Hyży.
 

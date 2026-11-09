@@ -3,6 +3,7 @@ title: "Kokardy - gorący trend na święta. Ivo pokazuje, jak je zrobić"
 date: 2026-11-09
 description: "Kokardy na choinkę, do prezentów i do dekoracji domu - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” pokazała krok po kroku, jak zrobić modne świąteczne kokardy."
 category: Telewizja i radio
+station: polsat
 ---
 Kokardy to jeden z największych świątecznych trendów - na choince, na prezentach i w całym domu. W „Halo tu Polsat” Ivo pokazała krok po kroku, jak je wiązać samodzielnie, zamiast kupować gotowe.
 

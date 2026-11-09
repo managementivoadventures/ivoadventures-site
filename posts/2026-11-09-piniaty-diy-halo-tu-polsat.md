@@ -3,6 +3,7 @@ title: "Piniaty DIY z kartonu: truskawka i pizza - Ivo w „Halo tu Polsat”"
 date: 2026-11-09
 description: "Jak zrobić piniatę z kartonu po przesyłce? Truskawka i pizza z bibuły - pomysł Iwony Kuziory (IvoAdventures) na zabawę z dziećmi."
 category: Telewizja i radio
+station: polsat
 draft: true
 ---
 Piniata to chyba jedyne dzieło sztuki, które z uśmiechem patrzysz, jak się rozpada. Ivo pokazuje, jak zrobić ją z **miękkiego kartonu po przesyłce** - w kształcie **truskawki** albo **kawałka pizzy**.

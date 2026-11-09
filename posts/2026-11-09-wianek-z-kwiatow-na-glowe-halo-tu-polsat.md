@@ -3,6 +3,7 @@ title: "Wiosna na głowie: wianek z żywych kwiatów krok po kroku - Ivo w „Ha
 date: 2026-11-09
 description: "Jak zrobić wianek z żywych kwiatów na głowę? Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” pokazała wianek na drucianej bazie z taśmą florystyczną."
 category: Telewizja i radio
+station: polsat
 ---
 Wiosną 2026 Ivo pokazała w „Halo tu Polsat”, jak zrobić **wianek z żywych kwiatów na głowę**.
 

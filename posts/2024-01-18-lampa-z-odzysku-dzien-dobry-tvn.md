@@ -3,6 +3,7 @@ title: "Ekologiczna lampa z odzysku - Ivo w „Dzień Dobry TVN”"
 date: 2024-01-18
 description: "Lampa z butelki lub wazonu, farby z sodą i papierowego abażuru - Iwona Kuziora (IvoAdventures) w „Dzień Dobry TVN” pokazała lampę DIY z odzysku."
 category: Telewizja i radio
+station: tvn
 ---
 Lampy to specjalność Ivo. W „Dzień Dobry TVN” w styczniu 2024 pokazała, jak zrobić **ekologiczną lampę z odzysku**:
 

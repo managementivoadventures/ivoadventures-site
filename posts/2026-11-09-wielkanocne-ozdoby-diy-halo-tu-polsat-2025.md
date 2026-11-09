@@ -3,6 +3,7 @@ title: "Wielkanocne ozdoby DIY z Iwoną Kuziorą - jajka z ręczników papierowy
 date: 2026-11-09
 description: "Duże wielkanocne jajka z ręczników kuchennych i balonów - Iwona Kuziora (IvoAdventures) w „Halo tu Polsat” pokazała tanią dekorację na Wielkanoc."
 category: Telewizja i radio
+station: polsat
 ---
 Na Wielkanoc 2025 Ivo przyniosła do „Halo tu Polsat” dekorację, która wygląda efektownie, a kosztuje grosze: **duże jajka z ręczników kuchennych i balonów**. Balon jest formą, ręcznik papierowy - skorupką, a po wyschnięciu powstaje lekka, duża ozdoba do domu albo na wystawę.
 

@@ -3,6 +3,7 @@ title: "Ozdoby świąteczne DIY z tego, co masz pod ręką - Ivo w „Halo tu Po
 date: 2026-11-09
 description: "Gwiazda z papierowych torebek, choinka z pomponów, bombka z papilotek i zimowe miasteczko - świąteczne DIY Iwony Kuziory (IvoAdventures) w „Halo tu Polsat”."
 category: Telewizja i radio
+station: polsat
 ---
 Przed świętami 2024 Ivo pokazała w „Halo tu Polsat”, że piękne ozdoby można zrobić z rzeczy, które każdy ma w kuchennej szufladzie. W studiu była m.in. Kasia Cichopek.
 

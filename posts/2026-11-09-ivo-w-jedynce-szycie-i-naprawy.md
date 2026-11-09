@@ -3,6 +3,7 @@ title: "Ivo w Jedynce: czy potrafimy jeszcze szyć i naprawiać?"
 date: 2026-11-09
 description: "Iwona Kuziora (IvoAdventures) w audycji „Cztery pory roku” w Programie 1 Polskiego Radia rozmawiała z Dagmarą Kowalską o szyciu, cerowaniu i prostych naprawach."
 category: Telewizja i radio
+station: jedynka
 ---
 Przyszycie guzika, zacerowanie skarpetki, drobna naprawa w domu - czy jeszcze to potrafimy? O tym Ivo rozmawiała z **Dagmarą Kowalską** w audycji **„Cztery pory roku”** w **Programie 1 Polskiego Radia**.
 
