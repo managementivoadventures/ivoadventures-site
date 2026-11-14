@@ -193,3 +193,8 @@ nav a{margin-left:14px}
 .stbadge img{height:44px;width:auto;border:2px solid var(--ink);border-radius:10px;background:#fff}
 .stbadge span{font-weight:700;font-size:14px}
 .applogo img,.logo-thumb img{object-fit:contain!important}
+
+/* paczki PR */
+.pr{position:relative;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:22px;box-shadow:4px 4px 0 var(--ink)}
+.pr .prico{position:absolute;top:-18px;right:18px;font-size:30px;background:#ff9ecb;border:2px solid var(--ink);border-radius:12px;padding:4px 8px;line-height:1}
+.pr .btn{background:#ffe14d}

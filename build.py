@@ -210,7 +210,11 @@ home = f"""<section class="hero">
 <section id="wspolpraca" class="contact"><h2>Współpraca</h2>
 <p>Jesteś marką i chcesz współpracować z Ivo? Napisz - odpowiemy i wyślemy media kit.</p>
 <p><a class="btn accent" href="mailto:{S['email']}"><b>{S['email']}</b></a></p>
-<p class="small">Kontakt: Kacper Kuziora, manager</p></section>"""
+<p class="small">Kontakt: Kacper Kuziora, manager</p></section>
+<section id="paczki-pr" class="pr"><span class="prico">📦</span><h2>Paczki PR</h2>
+<p>Chętnie przyjmujemy produkty do testów. Napisz, co to jest i do czego służy - odpiszemy z adresem do wysyłki.</p>
+<p class="small"><b>Wysyłka paczki nie gwarantuje publikacji.</b> Ivo pokazuje tylko to, co naprawdę przetestuje i co jej się spodoba.</p>
+<p><a class="btn" href="mailto:{S['email']}?subject=Paczka%20PR%20-%20%5Bnazwa%20marki%5D&amp;body=Dzie%C5%84%20dobry%2C%0A%0Achcemy%20wys%C5%82a%C4%87%20Ivo%20do%20test%C3%B3w%3A%0A-%20produkt%3A%0A-%20do%20czego%20s%C5%82u%C5%BCy%3A%0A-%20strona%20produktu%3A%0A-%20przybli%C5%BCony%20rozmiar%20paczki%3A%0A%0AProsimy%20o%20adres%20do%20wysy%C5%82ki.%0A%0APozdrawiamy"><b>Zgłoś paczkę PR</b><span>poproś o adres</span></a></p></section>"""
 write("", page("", "", f"{S['name']} - {S['brand']} | {S['tagline']}", S["description"], home, [PERSON_LD]))
 
 # --- lista wpisów + kategorie ---
