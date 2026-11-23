@@ -19,6 +19,8 @@ S = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
 MONTHS = ["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca",
           "sierpnia","września","października","listopada","grudnia"]
 
+import hashlib
+CSSV = hashlib.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
 def esc(s): return html.escape(str(s), quote=True)
 def pl_date(d): return f"{d.day} {MONTHS[d.month-1]} {d.year}"
 def slugify(s):
@@ -104,7 +106,7 @@ def page(rel, path, title, desc, body, ld=None, og_type="website", image=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{rel}style.css">
+<link rel="stylesheet" href="{rel}style.css?v={CSSV}">
 {lds}
 </head>
 <body>
