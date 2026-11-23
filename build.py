@@ -138,7 +138,8 @@ def post_card(p, rel):
         timg = f'<span class="logo-thumb" style="background:{STATIONS[p["station"]].get("bg","#fff")}"><img src="{esc(lg)}" alt="{esc(STATIONS[p["station"]]["name"])}" loading="lazy"></span>'
 
     badge = '<em class="draft">SZKIC</em> ' if p["draft"] else ""
-    return f"""<a class="card{' has-img' if t else ''}" href="{link(rel, 'aktualnosci/' + p['slug'] + '/')}">{timg}<span class="ctext">
+    reel = " reel" if p["image"].startswith("img/posts/") else ""
+    return f"""<a class="card{' has-img' if t else ''}{reel}" href="{link(rel, 'aktualnosci/' + p['slug'] + '/')}">{timg}<span class="ctext">
 <span class="meta">{esc(p['category'])} · {pl_date(p['date'])}</span>
 <h3>{badge}{esc(p['title'])}</h3><p>{esc(p['description'])}</p></span></a>"""
 

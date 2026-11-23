@@ -5,18 +5,19 @@ description: "Jak odświeżyć stare bombki farbą i zrobić choinkę glamour za
 category: Poradniki DIY
 image: img/posts/choinka-glamour-trick-na-kokarde.jpg
 ---
-Według Ivo to najlepszy sposób na **odświeżenie nieładnych, starych bombek**. Wystarczy ulubiony kolor farby i pędzelek, a do tego **trick na kokardę**, która wygląda jak ze sklepu z dekoracjami. Choinka glamour za grosze, zadanie turbo łatwe.
+Według Ivo to najlepszy sposób na **odświeżenie nieładnych, starych bombek**. Wystarczy ulubiony kolor farby, paczka sody i pędzelek, a do tego **trick na kokardę**, która wygląda jak ze sklepu z dekoracjami. Choinka glamour za grosze, zadanie turbo łatwe.
 
 ## Czego potrzebujesz
 
 - **stare bombki**, które chcesz odświeżyć,
 - **farba** w ulubionym kolorze,
+- **paczka sody** (tzw. soda effect),
 - **pędzelek**,
 - **wstążki** na kokardy.
 
 ## Z rolki dowiesz się
 
-- jak pomalować stare bombki, żeby wyglądały na nowe,
+- jak pomalować stare bombki farbą z sodą, żeby wyglądały na nowe,
 - jak dobrać kolory, żeby choinka była spójna i elegancka,
 - jak szybko wiązać równe kokardy na choinkę.
 

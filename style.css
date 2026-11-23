@@ -200,4 +200,6 @@ nav a{margin-left:14px}
 .pr .btn{background:#ffe14d}
 /* pionowe miniatury rolek (img/posts) */
 img.cover[src*="img/posts/"]{max-width:420px;display:block;margin:0 auto 20px;border:2px solid var(--ink)}
-.card.has-img img[src*="img/posts/"]{object-position:top}
+.card.has-img.reel img{aspect-ratio:9/16;object-position:top}
+
+@media (max-width:699px){.card.has-img.reel{flex-direction:row}.card.has-img.reel img{width:42%;aspect-ratio:9/16;object-position:top;border-bottom:0;border-right:2px solid var(--ink)}.card.has-img.reel .meta{white-space:normal}}
