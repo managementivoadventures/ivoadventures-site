@@ -203,3 +203,5 @@ img.cover[src*="img/posts/"]{max-width:420px;display:block;margin:0 auto 20px;bo
 .card.has-img.reel img{aspect-ratio:9/16;object-position:top}
 
 @media (max-width:699px){.card.has-img.reel{flex-direction:row}.card.has-img.reel img{width:42%;aspect-ratio:9/16;object-position:top;border-bottom:0;border-right:2px solid var(--ink)}.card.has-img.reel .meta{white-space:normal}}
+@media (min-width:700px){.cards{grid-auto-flow:dense;align-items:start}.cards .card.has-img:not(.reel){grid-column:span 2;flex-direction:row}.cards .card.has-img:not(.reel) img,.cards .card.has-img:not(.reel) .logo-thumb{width:38%;max-width:300px;aspect-ratio:16/9;border-bottom:0;border-right:2px solid var(--ink)}.cards .card.has-img:not(.reel) .logo-thumb img{width:100%;border-right:0}}
+@media (min-width:700px){.cards .card.has-img:not(.reel) .logo-thumb{display:flex;align-items:center;justify-content:center;align-self:stretch;aspect-ratio:auto;padding:14px}.cards .card.has-img:not(.reel) .logo-thumb img{width:80%!important;max-width:none;height:auto!important;max-height:110px;background:transparent;border:0}}
