@@ -198,3 +198,6 @@ nav a{margin-left:14px}
 .pr{position:relative;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:22px;box-shadow:4px 4px 0 var(--ink)}
 .pr .prico{position:absolute;top:-18px;right:18px;font-size:30px;background:#ff9ecb;border:2px solid var(--ink);border-radius:12px;padding:4px 8px;line-height:1}
 .pr .btn{background:#ffe14d}
+/* pionowe miniatury rolek (img/posts) */
+img.cover[src*="img/posts/"]{max-width:420px;display:block;margin:0 auto 20px;border:2px solid var(--ink)}
+.card.has-img img[src*="img/posts/"]{object-position:top}
