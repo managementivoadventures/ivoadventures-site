@@ -183,7 +183,7 @@ if F:
         right = (f'<button type="button" class="cp" data-code="{esc(it["code"])}">{esc(it["code"])}<i>kopiuj</i></button>'
                  if it.get("code") else '<span class="arr">→</span>')
         rows.append(f'<div class="row"><a class="rowlink" href="{href}"{tgt}><span class="ico">{it["icon"]}</span><span class="rt"><b>{esc(it["title"])}</b><small>{esc(it["sub"])}</small></span></a>{right}</div>')
-    fan_html = f"""<section class="fans"><h2>Dla fanów Ivo</h2><div class="rows">{"".join(rows)}</div>
+    fan_html = f"""<section class="fans"><h2>Polecajki Ivo</h2><p class="bio-l">Kody rabatowe, kurs i konkursy - wszystko w jednym miejscu.</p><div class="rows">{"".join(rows)}</div>
 <p class="note small">{esc(F['codes_note'])}</p></section>
 <script>document.addEventListener('click',function(e){{var b=e.target.closest('.cp');if(!b)return;var c=b.dataset.code,i=b.querySelector('i');function ok(){{b.classList.add('ok');i.textContent='skopiowano!';setTimeout(function(){{b.classList.remove('ok');i.textContent='kopiuj'}},1800)}}try{{navigator.clipboard.writeText(c).then(ok,ok)}}catch(_){{ok()}}}});</script>"""
 BY_SLUG = {p["slug"]: p for p in posts}

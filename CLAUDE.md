@@ -11,7 +11,7 @@ Prowadzi ją Kacper Kuziora (manager). Pisz do niego po polsku, krótko.
 - Edytor dla Kacpra i Ivo: Pages CMS (app.pagescms.org), konfiguracja w `.pages.yml`. Pliki edytowane tam i przez Claude to te same pliki, więc przed zmianą zawsze `git pull`.
 
 ## Gdzie co jest
-- `site.json` - bio, liczby obserwujących, platformy, sekcja „Dla fanów Ivo” (kurs, kody rabatowe), stacje TV/radio z logo (`stations`), „Najnowsze występy” (`appearances`), popularne filmy YouTube (`videos`), kategorie.
+- `site.json` - bio, liczby obserwujących, platformy, sekcja „Polecajki Ivo” (kurs, kody rabatowe, konkursy), stacje TV/radio z logo (`stations`), „Najnowsze występy” (`appearances`), popularne filmy YouTube (`videos`), kategorie.
 - `posts/RRRR-MM-DD-slug.md` - wpisy. Frontmatter: `title`, `date`, `description` (opis do Google, ~150 znaków, z „Iwona Kuziora” i „IvoAdventures”), `category`, opcjonalnie `youtube` (ID filmu), `image`, `station` (polsat / tvn / jedynka / zet), `pinned`, `draft`.
 - `pages/o-ivo.md` - strona „O Ivo”.
 - `img/` - zdjęcia (`img/ivo.jpg` profilowe, `img/media/` logo stacji).
